@@ -1,114 +1,106 @@
-
 * {
     margin: 0;
     padding: 0;
-}
-
-html{
-    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif;
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background: #fff;
     font-size: 30px;
     width: 100vw;
     height: 100vh;
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
 }
 
 .header{
-    background-color: rgb(255, 255, 255);
+    background: #ffffff;
     height: 60px;
-    font-size: 16px;
     display: flex;
-    justify-content: flex-end ;
+    justify-content: flex-end;
     align-items: center;
     padding-right: 20px;
+
 }
-section{
-  margin-bottom: 10%;  
-}
+
 .link{
     text-decoration: none;
     padding-left: 10px;
-    font-weight: 400px;
+    color: #7D8280;
+    font-weight: 400;
     font-size: 14px;
+
 }
 
 ion-icon{
     font-size: 20px;
     padding: 8px;
-    border-radius: 20px ;
+    border-radius: 20px;
     transition: .3s;
 }
 
 ion-icon:hover{
-    background: #6B7682;
-    border-radius: 20px ;
+    background: #DCDCDC;
+    border-radius: 20px;
+
 }
 
-.btn{
-    background: #3265cc;
-    padding: 8px 15px 8px 15px;
-    color: white;
-    border-radius: 10px ;
+.bnt-cinza{
+    font-size: 13px;
+    text-decoration: none;
+    background: #F8F9FA;
+    padding: 8px 20px 8px 20px;
+    color: #4B4E51;
+    border-radius: 5px;
     margin-left: 10px;
 }
 
+.pesquisa{
+    margin: 10px;
+    height: 40px;
+    min-width: 50vw;
+    max-width: 75vw;
+    border-radius: 20px;
+    border: 1px solid #DCDCDC;
+}
+
+.pesquisa:hover{
+    box-shadow: 2px 0px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.btn{
+    background: #1A73E8;
+    padding: 8px 15px 8px 15px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.bnt:hover{
+    background: #1A73E8c4;
+}
+
 .main{
-    background-color: #fff;
+    background: #ffffff;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
 }
 
-.btn-cinza{
-    font-size: 13px ;
-    text-decoration: none;
-    background: rgb(201, 201, 201);
-    padding: 8px 15px 8px 15px;
-    color: rgb(58, 58, 58);
-    border-radius: 5px;
-    margin-left: 5px ;
-    border: 1px solid rgb(189, 189, 189);
-    margin-bottom: 500px;
-}
-
-.pesquisa{
-    /*margin: 10px;*/
-    margin-top: auto;
-    margin-bottom: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 33px;
-    min-width: 40vw;
-    max-width: 75vw;
-    border-radius: 20px;
+.logo{
+    width:26%
 }
 
 
-.pesquisa:hover{
-    box-shadow: 2px 0px 5px 1px rgb(2, 2, 2);
-}
-
-img{
-    width: 23%;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
 .footer{
-    color:rgb(146, 146, 146);;
-    background-color: rgb(236, 236, 230);
+    color: #6B7682;
+    background: rgb(207, 207, 207);
     height: 60px;
-    border-bottom: 1px solid #DDDFE3 ;
+    border-bottom: 1px solid #DDDFE3;
     font-size: 18px;
-    padding-left: 18px ;
+    padding-left: 18px;
     display: flex;
     align-items: center;
-    margin-top: 2%;
 }
